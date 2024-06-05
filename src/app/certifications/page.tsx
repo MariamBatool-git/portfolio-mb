@@ -4,8 +4,8 @@ import CertItem from "../ui/certifications/cert-item";
 export default function Projects() {
     return (
       <div className="pt-36">
-        {CERTIFICATIONS.map((certItem : CertificationItem)=>(
-          <a href={certItem.link} target="_blank">
+        {CERTIFICATIONS.map((certItem : CertificationItem, index : number)=>(
+          <a href={certItem.link} target="_blank" key={index}>
             <CertItem certItem={certItem}/>
           </a>
         ))}

@@ -14,8 +14,8 @@ export default function ExpItem(props : ExperienceItemProps){
             </div>
             <h4 className="text-base font-semibold">{expItem.companyName}</h4>
             <div className="gap-1 flex flex-col pb-2">
-              {expItem.description.map((desc : string)=>(
-                <div className="flex flex-row gap-2 justify-between items-start">
+              {expItem.description.map((desc : string, index : number)=>(
+                <div className="flex flex-row gap-2 justify-between items-start" key={index}>
                   <p className="text-sm font-normal">- {desc}</p>
                 </div>
               ))}
