@@ -23,7 +23,7 @@ export const ABOUT_TEXT = {
 export const EXPERIENCE : Experience = [
     {
         title : 'Senior Software Engineer',
-        companyName : 'Blue Marble Money',
+        companyName : 'Banksey',
         duration : 'NOV 2023 - PRESENT',
         description : [
             'Driving the end-to-end development of an AI-driven finance management platform, combining Flask for backend robustness and React for an intuitive user interface.'
